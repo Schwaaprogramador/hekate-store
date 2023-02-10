@@ -13,14 +13,14 @@ const initialState = [
         description: 'Task 2 description',
     }
 ]
-
+// const stateGlobal = useSelector(state => state.tasks)
 
 export const taskSlice = createSlice({
     name: "tasks",
     initialState,
     reducers: {
         addTask: (state, action)=>{
-
+            
         }
     }
 })
