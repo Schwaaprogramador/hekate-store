@@ -1,4 +1,4 @@
-import './App.css';
+//---Librerias----------//
 import { Route, Routes } from "react-router-dom";
 //----- Componentes ----------//
 import Biblioteca from './components/Biblioteca/Biblioteca';
@@ -18,7 +18,8 @@ function App() {
 				
 				<Route exact path="/" element={<LandingPage/>} />
         <Route exact path="/inicio" element={<Inicio/>} />
-        {/* RUTAS ANIDADAS*/}
+
+        {/* RUTAS ANIDADAS BIBLIOTECA*/}
           <Route exact path="/biblioteca" element={<Biblioteca/>} />
           <Route exact path="/biblioteca/formulario" element={<FormAddBook/>} />
 
